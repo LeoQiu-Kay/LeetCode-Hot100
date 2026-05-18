@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 工具脚本和清单（按用户要求不入库）
+fetch_leetcode.py
+leetcode_hot100_checklist.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
