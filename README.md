@@ -22,7 +22,7 @@ LeetCode-Hot100/
 
 ## 怎么用
 
-**想找一道题的题面**：`leetcode_hot100/{难度}/{题号-题名}/{题号-题名}.md`
+**想找一道题的题面**：`leetcode_hot100/{难度}/{题号-题名}.md`
 **想找一道题的题解**：`hot100_solutions/{难度}/{题号-题名}.md`
 **按算法套路浏览全部 100 题**：打开 [`hot100_solutions/README.md`](./hot100_solutions/README.md) ← **推荐主入口**
 
