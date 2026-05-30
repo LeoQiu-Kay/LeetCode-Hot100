@@ -32,9 +32,24 @@
 """
 
 class Solution:
-
+    
     def maxArea(self, height: list[int]) -> int:
-        raise NotImplementedError
+        li = 0
+        ri = len(height) - 1
+        ans = 0
+        while li < ri:
+            l = height[li]
+            r = height[ri]
+            
+            if l >= r:
+                r -= 1
+                t = (ri-li)*r
+                ans = max(t, ans)
+            else:
+                l += 1
+                t = (ri-li)*l
+                ans = max(t, ans)
+        return ans
 
 
 if __name__ == "__main__":
